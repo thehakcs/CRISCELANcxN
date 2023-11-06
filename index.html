@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <header>
+    <nav class="navbar">
+        <ul>
+            HOME
+        </ul>
+        <ul>
+            CONTACT US
+        </ul>
+       <ul>
+        SUBSCRIBE
+       </ul>
+    
+    </nav>
+
+    <style> .navbar ul {
+        list-style-type: none;
+        text-align: left;
+        color: #32fc5e;
+
+    }
+    
+   
+
+
+    </style>
+   </header>
+   
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criscel Ann Lopez</title>
+
+
+    <style>
+         
+        body {
+            background-image: url("finalbg.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            text-align: center;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border: 5px solid #fc3232;
+            border-radius: 5px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #3498db;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+             }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to Celle's Secret Recipe</h1>
+        <p>Click the button to see my secrets:</p>
+        <button id="magicButton">Click Me</button>
+        <p id="message"></p>
+        <p id="message4"></p>
+    </div>
+    
+
+    <script>
+        // JavaScript for interactivity
+        document.getElementById('magicButton').addEventListener('click', function() {
+            document.getElementById('message').textContent = '1 cup of Assurance!'; 
+        }
+        
+        )
+          // JavaScript for interactivity
+        document.getElementById('magicButton').addEventListener('click', function() {
+            document.getElementById('message4').textContent = '1 kg of Loyalty';})
+    </script>
+</body>
+
+</html>
